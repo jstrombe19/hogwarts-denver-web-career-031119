@@ -5,7 +5,6 @@ function additionalInfo(props) {
   console.log('fired')
   if (!props.deetz) {
     return(
-
         "Specialty:" + `${props.specialty}` +
         "Weight:" + `${props['weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water']}\n` +
         "Highest Medal:" + `${props['highest medal achieved']}`
