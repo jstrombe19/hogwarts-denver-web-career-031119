@@ -13,14 +13,15 @@ class App extends Component {
     return hogPic;
   }
 
-  clickFoDeetz = (event) => {
-    if (event.target.className === "deetz"){
-      alert("poop")
-    }
+  // clickFoDeetz = (event) => {
+  //   if (event.target.className === "hog-image"){
+  //       }
+  // }
 
-  }
-
-
+  // showDeetz = (event) => {
+  //   const deetz =
+  //   if
+  // }
 
   render() {
     return (
