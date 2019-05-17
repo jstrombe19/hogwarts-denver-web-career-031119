@@ -13,11 +13,20 @@ class App extends Component {
     return hogPic;
   }
 
+  clickFoDeetz = (event) => {
+    if (event.target.className === "deetz"){
+      alert("poop")
+    }
+
+  }
+
+
+
   render() {
     return (
       <div className="App">
           < Nav />
-      <HogContainer myHogs={hogs} findHogImg={this.findHogImg} />
+        <HogContainer myHogs={hogs} findHogImg={this.findHogImg} clickFoDeetz={this.clickFoDeetz}/>
 
       </div>
     )
